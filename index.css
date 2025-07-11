@@ -5,14 +5,8 @@ body {
     background: #f5f5f5;
     padding: 20px;
     margin: 0;
-}
-
-/* メインコンテナ */
-.container {
     max-width: 800px;
     margin: 0 auto;
-    background: white;
-    padding: 40px;
 }
 
 /* ヘッダー */
@@ -145,7 +139,7 @@ a:hover {
 
 /* レスポンシブデザイン */
 @media (max-width: 768px) {
-    .container {
+    body {
         margin: 10px;
         padding: 20px;
     }
